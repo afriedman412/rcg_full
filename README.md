@@ -12,3 +12,8 @@ The problem is RapCaviar has a huge blind spot when it comes to women. We are in
 To the uninitiated, Spotify playlists are interally curated by highly-paid professionals. RapCaviar is a part of the music industry machinery. It's not the result of some highly calibrated algorithms: it's a collaboration between album release schedules, legitimate up-and-coming artists, and the whims of its authors. And that's fine. I'm not here to rail against small-timers squeezed out of the process. But while women have been an integral part of hip-hop since it began, it's hard to think of a time when this many female artists were legitimately holding their own. And while the rap community has always struggled to acknowledge the contributions of the women in its midst, the gap has never seemed so glaring.   
 
 Thanks to [Ian Meyer](https://github.com/imeyer) for the help.
+<br>
+
+This is a [Django](https://www.djangoproject.com/) app written in Python, with the help of [this really rad Django tutorial](https://docs.djangoproject.com/en/2.1/intro/tutorial01/), deployed on the Google Cloud Flex App Engine with the help of [this really rad tutorial](https://codeburst.io/beginners-guide-to-deploying-a-django-postgresql-project-on-google-cloud-s-flexible-app-engine-e3357b601b91).  
+
+It uses [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) for web scraping, [Spotipy](https://spotipy.readthedocs.io/en/latest/) for accessing Spotify data, and [Unidecode](https://pypi.org/project/Unidecode/) for parsing stylized names.
