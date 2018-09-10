@@ -1,4 +1,4 @@
 cron:
 - description: "daily update"
-  url: /go
+  url: /rcg_app/go/
   schedule: every 24 hours

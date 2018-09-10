@@ -5,12 +5,16 @@ import webapp2
 import urllib2
 import urllib3
 import certifi
-import logging
 import json
 import re
-from rcg_func_dj import pull_rc, pull_artists, artist_cycle, tally
-
+import unidecode
 import logging
+from bs4 import BeautifulSoup
+
+import spotipy
+from spotipy.oauth2 import SpotifyClientCredentials
+
+from rcg_func_dj import pull_rc, pull_artists, artist_cycle, tally
 
 
 import os
@@ -36,5 +40,5 @@ class update_dbs(webapp2.RequestHandler):
         self.response.write('rcg done!')
 
 
-routes = [('/go', update_dbs)]
+routes = [('/rcg_app/count', update_dbs)]
 app = webapp2.WSGIApplication(routes, debug=True)
