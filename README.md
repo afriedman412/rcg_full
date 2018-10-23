@@ -1,4 +1,5 @@
-<h2><a href="https://rcg-live.appspot.com/">RAP CAVIAR GENDER TRACKER</a></h2> 
+<!-- <h2><a href="https://rcg-live.appspot.com/">RAP CAVIAR GENDER TRACKER</a></h2>  -->
+<em>note: the app is temporarily offline while I get some hosting issues sorted out!</em>
 
 Streaming music is the dominant form of music consumption in the modern era. Fans can listen to almost anything they want anywhere they have an internet connection (or not, given many platforms' options to download songs to stream while offline). The economics of this model are still in flux: another round of negotiations between labels and streaming services looms, and artists frequently vent about paltry payouts. But it seems unlikely that purchasing to download or physical media will take the power back any time in the near future.
 <br>  
