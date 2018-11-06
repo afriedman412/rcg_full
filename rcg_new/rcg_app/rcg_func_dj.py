@@ -24,8 +24,8 @@ from rcg_app.models import Gender, Groups, Weekly_Count
 # prep 'http'
 http = urllib3.PoolManager(cert_reqs='CERT_REQUIRED', ca_certs=certifi.where())
 
-spot_id = '4263d6a900e94f1599974e3c90c28aa5'
-spot_sec = '26333e019ca149a4b8f0f1633168dddd'
+spot_id = 'NULL'
+spot_sec = 'NULL'
 
 # reads the current Rap Caviar playlist using supplied ID and secret
 # returns cleaned json of playlist
