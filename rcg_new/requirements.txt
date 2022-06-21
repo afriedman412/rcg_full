@@ -8,7 +8,7 @@ setuptools==40.0.0
 wheel==0.31.1
 pandas==0.20.3
 pandas-datareader==0.6.0
-numpy==1.13.3
+numpy==1.22.0
 requests==2.20.0
 urllib3==1.22
 Unidecode==1.0.22
